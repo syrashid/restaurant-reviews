@@ -10,4 +10,5 @@ Rails.application.routes.draw do
     end
     # get 'chef', to: 'restaurants#chef'
   end
+  resources :reviews, only: :destroy
 end
